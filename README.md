@@ -1,8 +1,10 @@
 # Courses Repository
 
-![Study Banner](Media/RepresentationFor.jpg)
+Welcome to the Courses repository! 📚 This space is dedicated to learning and keeping valuable information, along with code snippets, for future reference. Whether you're exploring front-end or back-end development, diving into APIs, or any language here available, this repository is here to support your learning journey.
 
-Welcome to the Courses repository! 📚 This space is dedicated to learning and keeping valuable information, along with code snippets, for future reference. Whether you're exploring front-end or back-end development, diving into APIs, or any language, this repository is here to support your learning journey.
+<div align="center">
+  <img src="Media/RepresentationFor.jpg" alt="Study Banner" width="500">
+</div>
 
 ## 🌟 Purpose
 
@@ -17,3 +19,6 @@ Explore a variety of topics, languages, and APIs. Each directory contains valuab
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/brasoares/Courses.git
+
+
+
