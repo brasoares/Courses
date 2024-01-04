@@ -24,7 +24,5 @@ printNameFunction() {
 }
 
 const person = new Person("Kyle")
-person.printNameArrow()
-// Arrow: Kyle
-person.printNameFunction()
-// Function: 
+person.printNameArrow() // Output: Arrow: Kyle
+person.printNameFunction() // Output: Function: 
