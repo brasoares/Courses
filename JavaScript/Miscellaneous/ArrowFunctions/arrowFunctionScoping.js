@@ -26,3 +26,13 @@ printNameFunction() {
 const person = new Person("Kyle")
 person.printNameArrow() // Output: Arrow: Kyle
 person.printNameFunction() // Output: Function: 
+
+/* GPT's explanation:
+* In the printNameArrow method, an arrow function is used inside the setTimeout.
+* Arrow functions do not bind their own this; instead, they inherit the this value from the enclosing execution context (in this case, the printNameArrow method).
+* So, this.name refers to the name property of the Person instance, and you get the expected output "Arrow: Kyle".
+
+* In contrast, in the printNameFunction method, a regular function is used inside the setTimeout.
+* Regular functions, when used in this way, have their own this context, which is determined by how the function is called.
+* In the context of the setTimeout callback, the this value is not the same as the Person instance, so this.name is undefined in this case.
+*/
