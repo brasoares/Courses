@@ -7,25 +7,25 @@
 
 class Person {
   constructor(name) {
-    this.name = name
+    this.name = name;
+  }
+
+  printNameArrow() {
+    setTimeout(() => {
+      console.log(`Arrow: ${this.name}`);
+    }, 100);
+  }
+
+  printNameFunction() {
+    setTimeout(function () {
+      console.log(`Function: ${this.name}`);
+    }, 100);
   }
 }
 
-printNameArrow() {
-  setTimeout(() => {
-   console.log('Arrow: ${this.name}') 
-  }, 100)
-}
-
-printNameFunction() {
-  setTimeout(function () {
-    console.log('Function: ${this.name}')
-  }, 100)
-}
-
-const person = new Person("Kyle")
-person.printNameArrow() // Output: Arrow: Kyle
-person.printNameFunction() // Output: Function: 
+const person = new Person("Kyle");
+person.printNameArrow();    // Output: Arrow: Kyle
+person.printNameFunction(); // Output: Function: undefined
 
 /* GPT's explanation:
 * In the printNameArrow method, an arrow function is used inside the setTimeout.
