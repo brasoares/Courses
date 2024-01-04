@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0"
+    <title>Username Printer</title>
+</head>
+<body>
+    <script>
+        // Arrow function to get username and print it
+        const getUsernameAndPrintIt = () => {
+            // Prompt for username
+            const username = prompt('Provide your username: ')
+
+            // Check if an username has been provided
+            if (username) {
+                // Display the entered value
+                document.body.innerHTML = `<h1>Hello, ${username}!</h1>`;
+            } else {
+                // Username not provided?
+                alert('You did not provide the requested username.');
+            }
+        };
+
+        // Call the arrow when loading the page:
+        window.onload = getUsernameAndPrintIt;
+    </script>
+</body>
+
+<!-- The above is a simple application built out of the help of GPT to better understand arrow functions. I did not even studied functions in JavaScript, at this point, but I need for a course. -->
