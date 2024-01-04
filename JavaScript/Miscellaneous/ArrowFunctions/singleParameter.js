@@ -9,3 +9,5 @@ function isPositive(number) {
 const isPositive = number => {
   return number >= 0
 }
+
+// As seen on: https://blog.webdevsimplified.com/2020-09/arrow-functions/
