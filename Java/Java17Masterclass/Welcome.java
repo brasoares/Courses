@@ -1,3 +1,5 @@
+// This is an IntelliJ's Community Edition walkthrough code.
+
 import java.util.Arrays;
 import java.util.List;
 
