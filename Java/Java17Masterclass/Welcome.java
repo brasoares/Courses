@@ -9,8 +9,8 @@ class Welcome {
 
     private static double findAverage(int[] values) {
         double result = 0;
-        for (int i = 0; i < values.length; i++) {
-            result += values[i];
+        for (int value : values) {
+            result += value;
         }
         return result;
     }
