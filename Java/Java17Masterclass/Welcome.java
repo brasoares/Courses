@@ -1,4 +1,5 @@
 // This is an IntelliJ's Community Edition walkthrough code.
+// As I have studied it to learn it does not start exactly like this in their turorial, it is here.
 
 import java.util.Arrays;
 import java.util.List;
