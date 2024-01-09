@@ -16,6 +16,5 @@ public class MyArrayListExample {
     // Gather a length from normal circumstances:
     int[] age1 = new int[10];
     age1.length;
-
   }
 }
