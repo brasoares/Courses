@@ -5,7 +5,7 @@ public class LoopsWhile {
             System.out.printf("%d", golden);
 
             if (golden < 999) {
-                System.out.print(",");
+                System.out.print(", ");
             } else {
                 System.out.print(".");
             }
