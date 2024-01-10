@@ -1,0 +1,5 @@
+• It does what it is supposed to.
+• Small in size (mainly when working on the web).
+• Minimal complexity.
+• Manageable (instead of each page having its own JS or CSS code, for example, use separate files to manage at once).
+• Readable (a code as clean as possible to save time to understand; you might need it in the future or others will; pay attention to naming variables and so on).
