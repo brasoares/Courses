@@ -1,3 +1,3 @@
 var userName = "brasoares"
 
-document.write("Welcome, "+ userName + "!");
+console.log("Welcome, "+ userName + "!");
