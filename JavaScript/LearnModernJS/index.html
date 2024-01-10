@@ -6,7 +6,12 @@
     <title>HTML and CSS Primer</title>
     <style>
       body {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .center-div {
+        text-align: left;
       }
 
       h1 {
@@ -14,20 +19,17 @@
         /* For better spacing */
       }
 
-      ul {
-        text-align: left;
-        list-style-position: inside;
-      }
-
     </style>
   </head>
   <body>
     <h1>HTML and CSS Primer</h1>
-    <ul>
-        <li>HTML determines the structure.</li>
-        <li><tagname>Some text you want to display.</tagname></li>
-        <li>HTML also includes some formatting.</li>
-        <li>CSS expands on the formatting and controls the looks.</li>
-    </ul>
+        <div class="center-div">
+            <ul>
+                <li>HTML determines the structure.</li>
+                <li><tagname>Some text you want to display.</tagname></li>
+                <li>HTML also includes some formatting.</li>
+                <li>CSS expands on the formatting and controls the looks.</li>
+            </ul>
+        </div>
   </body>
 </html>
