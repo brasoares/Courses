@@ -13,3 +13,4 @@ function demonstration() {
 // As seen above, whitespace is crucial for maintaining readability. While it may not be essential for functionality, it plays a vital role in ensuring clarity for human readers!
 // Also, the white space goes for around assignement operators, too, as an additional example (=) => improving readability.
 // Indentation is another great aspect to pay attention to when it comes to readability.
+// Comments themselves also improves readability when used correctly and not much. This very case is particular as this file is meant for learning and annotation.
