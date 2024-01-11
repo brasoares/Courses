@@ -7,3 +7,4 @@ var userName = "brasoares"
 console.log("Welcome, "+ userName + "!");
 
 // As seen above, whitespace is crucial for maintaining readability. While it may not be essential for functionality, it plays a vital role in ensuring clarity for human readers!
+// Also, the white space goes for around assignement operators, too, as an additional example (=) => improving readability.
