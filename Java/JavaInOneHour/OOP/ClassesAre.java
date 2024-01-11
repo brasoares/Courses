@@ -16,7 +16,7 @@ public class ClassesAre {
     // The declaresName method sets the value of the 'name' attribute to "Light."
     void declaresName() {
         System.out.println(name2);
-        Main.main(); // Also possible to call Main directly without creating a class object for the Main class.
+        ClassesAre.main(); // Also possible to call Main directly without creating a class object for the Main class.
         name = "Light";
     }
 
