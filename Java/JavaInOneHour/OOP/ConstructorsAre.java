@@ -36,6 +36,6 @@ class Person {
     // The createConstructor method creates an instance of ConstructorsAre,
     // setting the 'name' attribute to "Mary" by calling the constructor.
     void createConstructor() {
-        ConstructorsAre myConstructorsAre = new ConstructorsAre("Mary");
+        ConstructorsAre myConstructorsAre = new ConstructorsAre("Mary", 99);
     }
 }
