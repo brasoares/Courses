@@ -17,3 +17,5 @@ public class ConstructorsAre {
 
 // To create a new instance of ConstructorsAre and call the constructor,
 // use the following syntax: new ConstructorsAre("exampleName");
+
+// Note: The constructor doesn't necessarily need to be public; its visibility depends on the use case.
