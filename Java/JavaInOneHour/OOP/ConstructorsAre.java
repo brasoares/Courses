@@ -2,6 +2,7 @@
 public class ConstructorsAre {
 
     String name;
+    int age;
 
     static String name2;
 
@@ -15,6 +16,11 @@ public class ConstructorsAre {
     // If the constructor is made private, it can only be called within the same class.
     public ConstructorsAre(String name) {
         this.name = name;
+    }
+
+    public ConstructorsAre(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 }
 
