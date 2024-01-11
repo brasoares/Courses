@@ -12,6 +12,11 @@ public class ClassesAre {
     public static void main(String[] args) { // static means it belongs to the class, not the object instances
         // The main method is the entry point for the Java program.
         // It can be used to demonstrate the functionality of the ClassesAre class.
+        /*
+        * String cannot be called here, as it would present an error such as:
+        * "Non-static field 'name' cannot be referenced from a static context" IntelliJ
+        * It is due to the fact that this static belongs to the class ClassesAre itself, not an instance
+        */
     }
 
     // The declaresName method sets the value of the 'name' attribute to "Light."
