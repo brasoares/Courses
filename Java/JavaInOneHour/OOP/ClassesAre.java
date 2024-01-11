@@ -9,7 +9,7 @@ public class ClassesAre {
 
     String name; // This attribute 'name' holds the state information for an instance of the ClassesAre class.
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // static means it belongs to the class, not the object instances
         // The main method is the entry point for the Java program.
         // It can be used to demonstrate the functionality of the ClassesAre class.
     }
