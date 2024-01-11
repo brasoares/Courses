@@ -1,10 +1,3 @@
-/*
- * Classes are fundamental building blocks in Java programs, allowing us to model objects.
- * Objects have attributes representing their state and behaviors declared through methods.
- */
-
-// Attributes are variables that define the state of an object.
-
 public class ClassesAre {
 
     String name; // This attribute 'name' holds the state information for an instance of the ClassesAre class.
@@ -15,13 +8,15 @@ public class ClassesAre {
         // It can be used to demonstrate the functionality of the ClassesAre class.
         /*
         * String cannot be called here, as it would present an error such as:
-        * "Non-static field 'name' cannot be referenced from a static context" IntelliJ
-        * It is due to the fact that this static belongs to the class ClassesAre itself, not an instance
+        * "Non-static field 'name' cannot be referenced from a static context" in IntelliJ.
+        * It is due to the fact that this static belongs to the class ClassesAre itself, not an instance.
         */
     }
 
     // The declaresName method sets the value of the 'name' attribute to "Light."
     void declaresName() {
+        System.out.println(name2);
+        Main.main(); // Also possible to call Main directly without creating a class object for the Main class.
         name = "Light";
     }
 
