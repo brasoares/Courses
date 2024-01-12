@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+# This shebang above specifies the Perl interpreter path.
+# When the script is executed, the operating system
+# uses this path to run the Perl script.
+
 # Purpose: This script provides information about the Milky Way,
 # prints it to the console, and saves it to a file.
 # File Name: milky_way_info_commented.pl
