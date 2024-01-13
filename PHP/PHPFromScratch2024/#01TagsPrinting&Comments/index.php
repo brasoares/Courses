@@ -1,4 +1,5 @@
 	<?php
+	// For single line comments!
 		echo 'Hello from PHP<br>';
 		print 'Hello from print';
 		echo '<br>One', 'Two';
