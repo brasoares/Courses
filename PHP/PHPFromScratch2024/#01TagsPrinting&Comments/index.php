@@ -1,5 +1,5 @@
 <?php
-
+	echo 'Hello from PHP';
 ?>
 
 <!DOCTYPE html>
