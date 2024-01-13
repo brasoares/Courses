@@ -1,7 +1,7 @@
 	<?php
 		echo 'Hello from PHP<br>';
 		print 'Hello from print';
-		echo 'One', 'Two';
+		echo '<br>One', 'Two';
 	?>
 
 	<!DOCTYPE html>
