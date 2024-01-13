@@ -5,9 +5,10 @@
 		echo '<br>One', 'Two';
 	/*
 	* Multi-line comments!
+ 	* If you do not need the HTML in the same file the ending tag might not be necessary!
 	*/
 		
-		?>
+	?>
 
 	<!DOCTYPE html>
 	<html lang="en">
