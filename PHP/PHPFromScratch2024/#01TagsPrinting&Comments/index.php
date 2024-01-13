@@ -1,6 +1,5 @@
 	<?php
-		echo 'Hello from PHP';
-		echo '<br>';
+		echo 'Hello from PHP<br>';
 		print 'Hello from print';
 	?>
 
