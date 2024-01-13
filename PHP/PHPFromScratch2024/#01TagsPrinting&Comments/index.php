@@ -3,7 +3,11 @@
 		echo 'Hello from PHP<br>';
 		print 'Hello from print';
 		echo '<br>One', 'Two';
-	?>
+	/*
+	* Multiline comments!
+	*/
+		
+		?>
 
 	<!DOCTYPE html>
 	<html lang="en">
