@@ -4,7 +4,7 @@
 		print 'Hello from print';
 		echo '<br>One', 'Two';
 	/*
-	* Multiline comments!
+	* Multi-line comments!
 	*/
 		
 		?>
