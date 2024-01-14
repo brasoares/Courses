@@ -31,6 +31,11 @@ echo '<br>';
 // Object
 $person = new stdClass();
 var_dump($person);
+echo '<br>';
+
+// Null
+$nonono = null;
+var_dump($nonono);
 
 /*
 *This is a common practice in modern PHP development. 
