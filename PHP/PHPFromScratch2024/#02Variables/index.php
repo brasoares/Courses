@@ -43,7 +43,7 @@ $file = fopen('quasar.txt', 'r'); // Opens the file and the 'r' is for reading.
 var_dump($file);
 
 // Work on the image!
-$imgPath = (/quasar.jpg);
+$imgPath = (quasar.jpg);
 $imgSize = getimagesize($imagePath);
 echo $imgSize;
 
