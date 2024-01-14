@@ -44,12 +44,14 @@ var_dump($file);
 
 // Work on the image!
 $imgPath = 'quasar.jpg';
-$imgSize = getimagesize($imagePath);
-echo $imgSize;
+
+$imgSize = getimagesize($imgPath);
+echo "Image Width: {$imgSize[0]} pixels<br>";
+echo "Image Height: {$imgSize[1]} pixels<br>";
 
 /*
-*This is a common practice in modern PHP development. 
-* If your file contains only PHP code, leaving out the closing tag helps prevent 
-* any accidental whitespace or newline characters from being sent to the output, 
+*This is a common practice in modern PHP development.
+* If your file contains only PHP code, leaving out the closing tag helps prevent
+* any accidental whitespace or newline characters from being sent to the output,
 * which can avoid issues, especially when working with HTTP headers.
 */
