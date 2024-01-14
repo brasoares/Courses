@@ -39,7 +39,7 @@ var_dump($nonono);
 echo '<br>';
 
 // Resource
-$file = fopen('quasar.txt', 'r');
+$file = fopen('quasar.txt', 'r'); // Opens the file and the 'r' is for reading.
 var_dump($file);
 
 /*
