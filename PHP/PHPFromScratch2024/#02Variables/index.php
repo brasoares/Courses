@@ -18,6 +18,11 @@ $rating = 9.5;
 var_dump($rating);
 echo '<br>';
 
+// Boolean
+$isLoaded = true;
+var_dump($isLoaded);
+echo '<br>';
+
 /*
 *This is a common practice in modern PHP development. 
 * If your file contains only PHP code, leaving out the closing tag helps prevent 
