@@ -28,6 +28,10 @@ $friends = ['Harry', 'Ron', 'Hermione', 'Hagrid'];
 var_dump($friends);
 echo '<br>';
 
+// Object
+$person = new stdClass();
+var_dump($person);
+
 /*
 *This is a common practice in modern PHP development. 
 * If your file contains only PHP code, leaving out the closing tag helps prevent 
