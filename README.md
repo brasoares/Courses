@@ -18,7 +18,7 @@ Explore a variety of topics, languages, and APIs. Each directory contains valuab
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/brasoares/Courses.git
+   git clone https://github.com/HenocSoares/Courses.git
 
 
 
