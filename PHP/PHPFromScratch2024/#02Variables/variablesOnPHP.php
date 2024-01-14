@@ -1,3 +1,7 @@
+<?php
+	$title = 'Learn PHP From Scracth';
+?>
+
 <!DOCTYPE html>
 	<html lang="en">
 
