@@ -1,6 +1,7 @@
 <?php
 $title = "Learn PHP FromScracth";
 $heading = "Welcome To The Course!";
+$body = "In this course, I am learning the fundamentals of PHP!";
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +23,7 @@ $heading = "Welcome To The Course!";
 		<div class="container mx-auto p-4 mt-4">
 			<div class="bg-white rounded-lg shadow-md p-6">
 				<h2 class="text-2x1 font-semibold mb-4"><?php echo $heading; ?></h2>
-				<?php echo "<p>In this course, I am learning the fundamentals of PHP!</p>"; ?>
+				<?php echo $body ?>
 			</div>
 		</div>
 	</body>
