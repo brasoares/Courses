@@ -17,5 +17,3 @@ echo '<br>';
 $rating = 9.5;
 var_dump($rating);
 echo '<br>';
-
-?>
