@@ -23,6 +23,11 @@ $isLoaded = true;
 var_dump($isLoaded);
 echo '<br>';
 
+// Array
+$friends = ['Harry', 'Ron', 'Hermione', 'Hagrid'];
+var_dump($friends);
+echo '<br>';
+
 /*
 *This is a common practice in modern PHP development. 
 * If your file contains only PHP code, leaving out the closing tag helps prevent 
