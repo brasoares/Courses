@@ -36,6 +36,11 @@ echo '<br>';
 // Null
 $nonono = null;
 var_dump($nonono);
+echo '<br>';
+
+// Resource
+$file = fopen('quasar.txt', 'r');
+var_dump($file);
 
 /*
 *This is a common practice in modern PHP development. 
