@@ -45,6 +45,7 @@ var_dump($file);
 // Work on the image!
 $imgPath = (/quasar.jpg);
 $imgSize = getimagesize($imagePath);
+echo $imgSize;
 
 /*
 *This is a common practice in modern PHP development. 
