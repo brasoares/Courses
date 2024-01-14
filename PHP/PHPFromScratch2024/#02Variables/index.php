@@ -42,6 +42,10 @@ echo '<br>';
 $file = fopen('quasar.txt', 'r'); // Opens the file and the 'r' is for reading.
 var_dump($file);
 
+// Work on the image!
+$imgPath = (/quasar.jpg);
+$imgSize = getimagesize($imagePath);
+
 /*
 *This is a common practice in modern PHP development. 
 * If your file contains only PHP code, leaving out the closing tag helps prevent 
