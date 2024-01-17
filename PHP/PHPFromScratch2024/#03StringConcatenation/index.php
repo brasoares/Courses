@@ -2,7 +2,7 @@
 <?php
 	$firstName = 'Anakin';
 	$lastName = 'Skywalker';
-	$textMsg = 'be good!'
+	$textMsg = 'be good!';
 	$phraseFor = $firstName . lastName . $textMsg;
 ?>
 	<!DOCTYPE html>
