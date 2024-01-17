@@ -1,5 +1,5 @@
-// Join Strings together: concatenation
 <?php
+	# Join Strings together: concatenation
 	$firstName = 'Anakin';
 	$lastName = 'Skywalker';
 	$textMsg = 'be good!';
