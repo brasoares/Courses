@@ -1,5 +1,7 @@
+// Join Strings together: concatenation
+<?php
 
-
+?>
 	<!DOCTYPE html>
 	<html lang="en">
 
