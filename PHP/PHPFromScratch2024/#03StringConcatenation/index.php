@@ -1,6 +1,8 @@
 // Join Strings together: concatenation
 <?php
-
+	$firstName = 'Anakin';
+	$lastName = 'Skywalker';
+	$phraseFor = $firstName . lastName;
 ?>
 	<!DOCTYPE html>
 	<html lang="en">
