@@ -48,7 +48,7 @@ function handleClick(event) {
   if (btnId === "btn-why-react") {
     displayContent(content [0]);
   } else if (btnId === "btn-core-features") {
-    displayContent (content[1]);
+    displayContent(content[1]);
   } else {
     displayContent (content[2]);
   }
