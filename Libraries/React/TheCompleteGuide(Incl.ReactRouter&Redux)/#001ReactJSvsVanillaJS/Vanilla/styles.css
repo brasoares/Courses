@@ -8,3 +8,10 @@ body {
   color: #bdd1d4;
   margin: 2rem;
 }
+
+header {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
