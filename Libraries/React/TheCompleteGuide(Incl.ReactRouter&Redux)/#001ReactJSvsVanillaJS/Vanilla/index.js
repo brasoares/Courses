@@ -10,5 +10,10 @@ const content = [
     "State",
     "Hooks (e.g., useEffect ())",
     "Dynamic rendering"
+  ],
+  [
+    "Official web page (react.dev)",
+    "Next.js (Fullstack framework)",
+    "React Native (build native mobile apps with React)"
   ]
 ]
