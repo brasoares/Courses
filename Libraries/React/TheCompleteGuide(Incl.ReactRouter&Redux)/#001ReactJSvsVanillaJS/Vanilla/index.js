@@ -28,4 +28,6 @@ function displayContent (items) {
   for (const item of items) {
     listContent += '<li>${item}</li>'; 
   }
+  const list = document.createElement("ul");
+  tabContent.innerHTML = ""; // clear existing content
 }
