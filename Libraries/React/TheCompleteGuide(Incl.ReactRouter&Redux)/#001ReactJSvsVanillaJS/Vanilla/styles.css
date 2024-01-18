@@ -62,3 +62,9 @@ header p {
   background-color: #f3e248;
   color: #273133;
 }
+
+#tab-content {
+  background-color: #2d3942;
+  border-radius: 0 4px 4px 4px;
+  padding: 1rem;
+}
