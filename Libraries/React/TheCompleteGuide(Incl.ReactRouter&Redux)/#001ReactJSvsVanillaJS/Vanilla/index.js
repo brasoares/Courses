@@ -18,4 +18,5 @@ const content = [
   ]
 ];
 
-const brnWhyReact = document.getElementById("btn-why-react");
+const btnWhyReact = document.getElementById("btn-why-react");
+const 
