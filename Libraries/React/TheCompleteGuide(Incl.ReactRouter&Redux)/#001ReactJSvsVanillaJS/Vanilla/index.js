@@ -50,7 +50,7 @@ function handleClick(event) {
   } else if (btnId === "btn-core-features") {
     displayContent(content[1]);
   } else {
-    displayContent (content[2]);
+    displayContent(content[2]);
   }
 }
 
