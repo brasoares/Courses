@@ -16,4 +16,4 @@ const content = [
     "Next.js (Fullstack framework)",
     "React Native (build native mobile apps with React)"
   ]
-]
+];
