@@ -45,4 +45,5 @@ function highlightButton(btn) {
 function handleClick(event) {
   const btnId = event.target.id;
   highlightButton(event.target);
+  if (btnId === "btn-why-react")
 }
