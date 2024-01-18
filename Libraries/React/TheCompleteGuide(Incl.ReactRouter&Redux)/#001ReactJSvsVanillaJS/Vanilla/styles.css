@@ -59,4 +59,6 @@ header p {
 
 #tabs button: hover,
 #tabs button.active {
+  background-color: #f3e248;
+  color: #273133;
 }
