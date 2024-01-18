@@ -68,3 +68,7 @@ header p {
   border-radius: 0 4px 4px 4px;
   padding: 1rem;
 }
+
+#tab-content li {
+  margin: 0.75rem 0;
+}
