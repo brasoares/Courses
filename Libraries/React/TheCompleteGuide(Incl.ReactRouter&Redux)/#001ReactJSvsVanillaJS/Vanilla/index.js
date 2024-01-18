@@ -26,7 +26,7 @@ const tabContent = document.getElementById("tab-content");
 function displayContent (items) {
   let listContent = "";
   for (const item of items) {
-    listContent += '<li>${item}</li>'; 
+    listContent += `<li>${item}</li>`; 
   }
   const list = document.createElement("ul");
   tabContent.innerHTML = ""; // clear existing content
