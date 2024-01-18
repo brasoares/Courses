@@ -56,3 +56,7 @@ header p {
   cursor: pointer;
   transition: all 0.2s ease-out;
 }
+
+#tabs button: hover,
+#tabs button.active {
+}
