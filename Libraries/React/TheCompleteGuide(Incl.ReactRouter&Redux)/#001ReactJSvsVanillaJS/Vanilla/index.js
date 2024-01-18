@@ -57,3 +57,4 @@ function handleClick(event) {
 displayContent (content[0]); // Shows (initially) this content
 
 btnWhyReact.addEventListener("click", handleClick);
+btnCoreFeature.addEventListener("click", handleClick);
