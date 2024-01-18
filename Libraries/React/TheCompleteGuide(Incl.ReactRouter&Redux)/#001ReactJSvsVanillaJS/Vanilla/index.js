@@ -25,5 +25,7 @@ const tabContent = document.getElementById("tab-content");
 
 function displayContent (items) {
   let listContent = "";
-  
+  for (const item of items) {
+    listContent += '<li>${item}</li>';
+  }
 }
