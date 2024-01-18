@@ -39,4 +39,5 @@ function highlightButton(btn) {
   btnWhyReact.className = "";
   btnCoreFeature.className = "";
   btnResources.className = "";
+  btn.className = "active"; // set new style/highlight
 }
