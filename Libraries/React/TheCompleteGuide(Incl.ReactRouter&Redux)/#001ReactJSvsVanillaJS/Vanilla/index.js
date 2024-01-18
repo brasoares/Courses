@@ -41,3 +41,7 @@ function highlightButton(btn) {
   btnResources.className = "";
   btn.className = "active"; // set new style/highlight
 }
+
+function handleClick(event) {
+  const btnId = event.target.id;
+}
