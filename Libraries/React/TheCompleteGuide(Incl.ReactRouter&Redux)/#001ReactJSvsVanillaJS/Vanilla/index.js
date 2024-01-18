@@ -17,3 +17,5 @@ const content = [
     "React Native (build native mobile apps with React)"
   ]
 ];
+
+const brnWhyReact = document.getElementById("btn-why-react");
