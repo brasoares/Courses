@@ -33,3 +33,7 @@ function displayContent (items) {
   list.innerHTML = listContent; // insert new content
   tabContent.append(list);
 }
+
+function highlightButton(btn) {
+  
+}
