@@ -35,5 +35,6 @@ function displayContent (items) {
 }
 
 function highlightButton(btn) {
-  
+  // This is meant to clear all existing styling/highlights
+  btnWhyReact.className = "";
 }
