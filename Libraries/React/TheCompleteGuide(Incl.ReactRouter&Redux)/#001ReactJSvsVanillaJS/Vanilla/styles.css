@@ -17,5 +17,6 @@ header {
 }
 
 header img {
-  
+ width: 3rem;
+ object-fit: contain;
 }
