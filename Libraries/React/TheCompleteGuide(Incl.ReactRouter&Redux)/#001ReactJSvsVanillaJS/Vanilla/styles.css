@@ -30,3 +30,9 @@ header p {
   margin: 0;
   color: #dbd7b1;
 }
+
+#tabs {
+  max-width: 32rem;
+  margin: 2rem 0;
+  overflow: hidden;
+}
