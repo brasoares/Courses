@@ -1,0 +1,3 @@
+This is React, The Complete Guide (https://www.udemy.com/course/react-the-complete-guide-incl-redux/)!
+
+I'll be documenting materials and codes I'll be typing by hand (as much as possible) to better learn!
