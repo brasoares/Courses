@@ -25,3 +25,8 @@ header h1 {
   margin: 0;
   color: #f3e248;
 }
+
+header p {
+  margin: 0;
+  color: #dbd7b1;
+}
