@@ -38,4 +38,5 @@ function highlightButton(btn) {
   // This is meant to clear all existing styling/highlights
   btnWhyReact.className = "";
   btnCoreFeature.className = "";
+  btnResources.className = "";
 }
