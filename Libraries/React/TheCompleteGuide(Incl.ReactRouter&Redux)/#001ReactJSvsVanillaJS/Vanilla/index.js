@@ -53,3 +53,6 @@ function handleClick(event) {
     displayContent (content[2]);
   }
 }
+
+displayContent (content[0]); // Shows (initially) this content
+
