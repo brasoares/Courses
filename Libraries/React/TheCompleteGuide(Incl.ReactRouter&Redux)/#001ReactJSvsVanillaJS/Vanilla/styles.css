@@ -36,3 +36,9 @@ header p {
   margin: 2rem 0;
   overflow: hidden;
 }
+
+#tabs menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
