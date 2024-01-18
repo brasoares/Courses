@@ -19,7 +19,7 @@ const content = [
 ];
 
 const btnWhyReact = document.getElementById("btn-why-react");
-const btnCoreFeature = document.getElementById("btn-core-features"); 
+const btnCoreFeature = document.getElementById("btn-core-features");
 const btnResources = document.getElementById("btn-resources");
 const tabContent = document.getElementById("tab-content");
 
