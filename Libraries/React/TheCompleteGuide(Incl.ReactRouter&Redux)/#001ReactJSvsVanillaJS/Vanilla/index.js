@@ -8,7 +8,7 @@ const content = [
   [
     "Components, JSX & Props",
     "State",
-    "Hooks (e.g., useEffect ())",
+    "Hooks (e.g., useEffect())",
     "Dynamic rendering"
   ],
   [
