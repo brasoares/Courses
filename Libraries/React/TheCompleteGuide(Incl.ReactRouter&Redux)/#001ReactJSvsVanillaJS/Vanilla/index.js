@@ -19,4 +19,4 @@ const content = [
 ];
 
 const btnWhyReact = document.getElementById("btn-why-react");
-const 
+const btnCoreFeature = document.getElementById("btn-core-features");
