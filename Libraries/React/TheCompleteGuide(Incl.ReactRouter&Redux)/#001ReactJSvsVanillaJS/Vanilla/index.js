@@ -31,4 +31,5 @@ function displayContent (items) {
   const list = document.createElement("ul");
   tabContent.innerHTML = ""; // clear existing content
   list.innerHTML = listContent; // insert new content
+  tabContent.append(list);
 }
