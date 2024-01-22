@@ -1,0 +1,52 @@
+body {
+	background: gold;
+	color: white;
+}
+
+a {
+	color: silver;
+	text-decoration: none;
+}
+
+h1{
+	font-family: monospace;
+	font-size: 111px;
+}
+
+/*a selector:*/
+a:hover {
+	color: black;
+}
+
+.greenlink:hover{
+	color: green;
+}
+
+.indent {
+	margin-left: 18px;
+}
+
+.gap_ahead{
+	margin-bottom: 999px;
+}
+
+@media (min-width:999px){
+	body{
+		background: black;
+	}
+}
+
+@media (min-width:1509px){
+	body{
+		background: #50c878;
+	}
+}
+
+@media (min-width:540px){
+	.responsive{
+		display:inline-block;
+		width: 333px;
+		border: 9px solid red;
+		border-radius: 6px;
+	}
+}
