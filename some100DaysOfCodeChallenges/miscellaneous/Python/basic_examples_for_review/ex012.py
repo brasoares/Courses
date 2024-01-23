@@ -15,4 +15,4 @@ num2 = float(input("Please, provide the second number: "))
 if num1 > num2:
   print(f"{num2}, {num1}.")
 else:
-  print(f"{num1}, {num2}.")
+  print(f"{num1}, {num2:.0f}.")
