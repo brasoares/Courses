@@ -16,7 +16,7 @@ age = int(input("How old are you? "))
 if age >= 18:
   print("You can vote")
 elif age == 17:
-  print("You can learn to drive")
+  print("You can learn how to drive")
 elif age == 16:
   print("You can go to the movies!") # You can go to the movies!
 else:
