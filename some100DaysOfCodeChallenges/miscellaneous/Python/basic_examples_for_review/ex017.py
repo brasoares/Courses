@@ -12,6 +12,8 @@ message “You can go Trick-
 or-Treating”.
 '''
 
+age = 0
+
 while age <= 0:
   age = int(input("How old are you? "))
 
