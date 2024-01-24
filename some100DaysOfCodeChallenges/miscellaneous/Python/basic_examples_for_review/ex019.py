@@ -5,7 +5,7 @@ the message “Thank you”, if they enter a 2, display
 they enter anything else, display “Error message”.
 '''
 
-num = int(input("Enter 1, 2 or 3: "))
+num = float(input("Enter 1, 2 or 3: "))
 
 if num == 1:
   print("Thank you")
