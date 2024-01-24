@@ -6,3 +6,10 @@ display “Too high”.
 '''
 
 num = float(input("Enter a number: "))
+
+if num < 10:
+  print("Too low")
+elif num < 21:
+  print("Correct")
+else:
+  print("Too high")
