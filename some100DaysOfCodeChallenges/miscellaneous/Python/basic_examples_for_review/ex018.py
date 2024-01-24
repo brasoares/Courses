@@ -4,3 +4,5 @@ display the message “Too low”, if their number is
 between 10 and 20, display “Correct”, otherwise
 display “Too high”.
 '''
+
+num = float(input("Enter a number: "))
