@@ -8,7 +8,7 @@ to the first question, display the answer “Enjoy your day”.
 '''
 is_raining = input("Is it raining? ").lower()
 
-if answer00 == 'yes':
+if is_raining == 'yes':
   answer = input("Is it windy? ")
   answer1 = answer.lower()
   if answer1 = 'yes':
