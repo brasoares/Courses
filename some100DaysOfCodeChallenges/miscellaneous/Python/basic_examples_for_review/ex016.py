@@ -19,4 +19,3 @@ if answer00 == 'yes':
     break
 else:
   print("Enjoy your day!")
-  
