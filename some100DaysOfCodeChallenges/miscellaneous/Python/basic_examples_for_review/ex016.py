@@ -6,11 +6,10 @@ display the answer “It is too windy for an umbrella”, otherwise
 display the message “Take an umbrella”. If they did not answer yes
 to the first question, display the answer “Enjoy your day”.
 '''
-answer0 = input("Is it raining? ")
-answer00 = answer0.lower()
+is_raining = input("Is it raining? ").lower()
 
 if answer00 == 'yes':
-  answer = input("Is it windy? "):
+  answer = input("Is it windy? ")
   answer1 = answer.lower()
   if answer1 = 'yes':
     print("It is too windy for an umbrella!")
