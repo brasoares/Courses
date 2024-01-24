@@ -15,6 +15,5 @@ if is_raining == 'yes':
     print("It is too windy for an umbrella!")
   else:
     print("Take an umbrella!")
-    break
 else:
   print("Enjoy your day!")
