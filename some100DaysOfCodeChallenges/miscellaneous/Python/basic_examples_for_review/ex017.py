@@ -11,7 +11,9 @@ under 16, display the
 message “You can go Trick-
 or-Treating”.
 '''
-age = int(input("How old are you? "))
+
+while age <= 0:
+  age = int(input("How old are you? "))
 
 if age >= 18:
   print("You can vote")
