@@ -11,4 +11,12 @@ answer00 = answer0.lower()
 
 if answer00 == 'yes':
   answer0 = input("Is it windy? "):
+  answer00 = answer0.lower()
+  if answer0 = 'yes':
+    print("It is too windy for an umbrella!")
+  else:
+    print("Take an umbrella!")
+    break
+else:
+  print("Enjoy your day!")
   
