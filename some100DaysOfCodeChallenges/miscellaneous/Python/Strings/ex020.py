@@ -6,4 +6,4 @@ length of their name.
 '''
 
 first_name = input("Please, provide your first name: ")
-print(f"Your name is {first_name}, and it contains the length of {first_name.length} letters.")
+print(f"Your name is {first_name}, and it contains the length of {len(name)} letters.")
