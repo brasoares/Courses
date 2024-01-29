@@ -9,4 +9,4 @@ surname = input("Enter your surname: ")
 
 full_name = name + " " + surname
 
-print(full_name)
+print(f"Hi,{full_name}! Your name has {len(full_name)-1} characters!")
