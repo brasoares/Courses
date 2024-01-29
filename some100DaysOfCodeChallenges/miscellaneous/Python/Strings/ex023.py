@@ -9,3 +9,8 @@ just that section of the text
 counting from 0 and not 1).
 '''
 
+# Ask the user to type in the first line of a nursery rhyme
+nursery_rhyme = input("Please, type in the first line of a nursery rhyme: ")
+
+# Display string's length
+print(f"The length of the string is {len(nursery_rhyme)}.")
