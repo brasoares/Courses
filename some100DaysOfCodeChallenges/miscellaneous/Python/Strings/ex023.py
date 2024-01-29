@@ -9,6 +9,14 @@ just that section of the text
 counting from 0 and not 1).
 '''
 
+'''
+Example of one:
+"Mary had a little lamb,
+Its fleece was white as snow;
+And everywhere that Mary went,
+The lamb was sure to go."
+'''
+
 # Ask the user to type in the first line of a nursery rhyme
 nursery_rhyme = input("Please, type in the first line of a nursery rhyme: ")
 
