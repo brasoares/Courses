@@ -22,3 +22,10 @@ nursery_rhyme = input("Please, type in the first line of a nursery rhyme: ")
 
 # Display string's length
 print(f"The length of the string is {len(nursery_rhyme)}.")
+
+# Ask for a starting number and an ending number
+start = int(input("Please, enter a starting number: "))
+end = int(input("Please, enter an ending number: "))
+
+# Display just that section of the text
+print(f"The requested section is: {nursery_rhyme[start:end]}.")
