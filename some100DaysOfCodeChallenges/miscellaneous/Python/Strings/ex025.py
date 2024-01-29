@@ -13,4 +13,6 @@ name = input("Enter your name: ")
 if name.len() < 5:
   surname = input("Enter your surname: ")
   joined_full_name = name + surname
-  print(joined_full_name)
+  print(joined_full_name.upper())
+else:
+  print(name.lower())
