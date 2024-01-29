@@ -5,8 +5,8 @@ Display the finished result.
 '''
 
 print("All in lower case, please:")
-name = input("Enter your name").title()
-surname = input("Enter your surname").title()
+name = input("Enter your name: ").title()
+surname = input("Enter your surname: ").title()
 
 full_name = name + " " + surname
 print(full_name)
