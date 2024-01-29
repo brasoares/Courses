@@ -10,7 +10,7 @@ lower case.
 
 name = input("Enter your name: ")
 
-if name.len() < 5:
+if len(name) < 5:
   surname = input("Enter your surname: ")
   joined_full_name = name + surname
   print(joined_full_name.upper())
