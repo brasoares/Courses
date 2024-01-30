@@ -12,13 +12,9 @@ Make sure the new word is displayed in lower case.
 word = input("Please enter a word: ")
 first = word[0]
 length = len(word)
-rest = word(1: length)
-if first != "a"
-and first != "e"
-and first != "i"
-and first != "o"
-and first != "u":
+rest = word[1:length]
+if first != "a" and first != "e" and first != "i" and first != "o" and first != "u":
     newword = rest + first + "ay"
-else
+else:
     newword = word + "way"
 print(newword.lower())
