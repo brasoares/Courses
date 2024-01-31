@@ -5,3 +5,9 @@ decimal places. Multiply
 this number by two and
 display the answer.
 '''
+
+floatNum = float(input("Enter a number with several decimal places: "))
+
+doubleFloatNum = floatNum * 2
+
+print(f"The result is: {doubleFloatNum}.")
