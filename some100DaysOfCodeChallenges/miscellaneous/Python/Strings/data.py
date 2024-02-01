@@ -4,3 +4,6 @@ data = [
 	["'", "\\'"], # Escape single quote with a backlash
 	["\\", "\\\\"], # Escape backlash with another backlash
 ]
+
+for row in data:
+	print("\t".join(row)) # tabs for column separtion
