@@ -7,4 +7,4 @@ floatNum = float(input("Enter a number with several decimal places: "))
 
 doubleFloatNum = floatNum * 2
 
-print(f"The result is: {doubleFloatNum}.")
+print(f"The result is: {doubleFloatNum:.2}.")
