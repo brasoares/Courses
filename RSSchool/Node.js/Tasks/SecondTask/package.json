@@ -1,0 +1,21 @@
+{
+  "name": "file-manager-task",
+  "version": "1.0.0",
+  "description": "A Node.js file manager application that allows users to perform basic file operations, navigate directories, retrieve information about the operating system, calculate file hashes, and compress/decompress files using the Brotli algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "manager",
+    "node.js",
+    "cli",
+    "streams",
+    "hashing",
+    "compression",
+    "decompression"
+  ],
+  "author": "Henoc Freire",
+  "license": "ISC"
+}
