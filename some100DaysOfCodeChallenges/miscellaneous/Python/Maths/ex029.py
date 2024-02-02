@@ -13,4 +13,4 @@ while integer <= 500:
 
 sqrt = math.sqrt(integer)
 
-print(f"The square root of {integer} is: {sqrt}.")
+print(f"The square root of {integer} is: {sqrt:.2f}.")
