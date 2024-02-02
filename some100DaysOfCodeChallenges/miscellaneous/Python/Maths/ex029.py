@@ -6,7 +6,7 @@ decimal places.
 
 import math
 
-While integer <= 500:
+while integer <= 500:
   integer = int(input("Enter an integer higher than 500: "))
 
 sqrt = math.sqrt(integer)
