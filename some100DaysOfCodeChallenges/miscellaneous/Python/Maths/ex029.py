@@ -6,6 +6,8 @@ decimal places.
 
 import math
 
+integer = 0
+
 while integer <= 500:
   integer = int(input("Enter an integer higher than 500: "))
 
