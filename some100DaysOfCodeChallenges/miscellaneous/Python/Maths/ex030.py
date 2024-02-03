@@ -5,4 +5,4 @@ decimal places.
 
 import math
 
-print(math.pi:.2f)
+print(f{math.pi:.2f})
