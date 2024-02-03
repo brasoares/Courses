@@ -10,7 +10,7 @@ import math
 radius = Decimal(input("Enter the cylinder's radius: "))
 depth = Decimal(input("Enter the cylinder's depth: "))
 
-circle_area = math.pi * radius ** 2
+circle_area = Decimal(math.pi) * pow(radius, 2)
 volume = circle_area * depth
 
 # Rounding the volume
