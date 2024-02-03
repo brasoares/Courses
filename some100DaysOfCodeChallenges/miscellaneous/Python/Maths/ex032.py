@@ -14,6 +14,6 @@ circle_area = math.pi * pow(radius, 2)
 volume = circle_area * depth
 
 # Rounding the volume
-round_volume = volume.quatize(Decimal('0.001'), rounding=ROUND_HALF_UP)
+round_volume = volume.quantize(Decimal('0.001'), rounding=ROUND_HALF_UP)
 
 print(f"Total volume: {round_volume:.3f}")
