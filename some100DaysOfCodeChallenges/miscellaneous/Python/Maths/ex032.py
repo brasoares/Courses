@@ -8,3 +8,5 @@ places.
 import math
 
 radius = float(input("Enter the cylinder's radius: "))
+depth = float(input("Enter the cylinder's depth: "))
+
