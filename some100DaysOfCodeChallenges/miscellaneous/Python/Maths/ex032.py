@@ -13,4 +13,7 @@ depth = Decimal(input("Enter the cylinder's depth: "))
 circle_area = math.pi * pow(radius, 2)
 volume = circle_area * depth
 
-print(f"Total volume: {volume:.3f}")
+# Rounding the volume
+round_volume = volume.quatize(Decimal('0.001'), rounding=ROUND_HALF_UP)
+
+print(f"Total volume: {round_volume:.3f}")
