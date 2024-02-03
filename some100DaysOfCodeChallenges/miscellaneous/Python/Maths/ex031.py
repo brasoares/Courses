@@ -8,4 +8,4 @@ import math
 radius = float(input("Please, provide the radius of a circle: "))
 area = circle_radius = math.pi * pow(radius, 2)
 
-print(f"Area: {area}.")
+print(f"Area: {area:.2f}.")
