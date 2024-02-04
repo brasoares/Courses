@@ -9,8 +9,8 @@ way (e.g. if they enter 7 and 2 display
 remaining”).
 '''
 
-num1 = int(input(Enter the first number: ))
-num2 = int(input(Enter the second number: ))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 
 quotient = num1 // num2
 remainder = num1 % num2
