@@ -8,3 +8,7 @@ way (e.g. if they enter 7 and 2 display
 “7 divided by 2 is 3 with 1
 remaining”).
 '''
+
+num_a = int(input(Enter the first number: ))
+num_b = int(input(Enter the second number: ))
+
