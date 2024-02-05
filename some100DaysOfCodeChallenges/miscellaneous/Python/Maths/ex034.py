@@ -10,3 +10,6 @@ If the user enters 1, then it should ask them for the length of one of its sides
 the area. If they select 2, it should ask for the base and height of the triangle and display
 the are. If they type in anything else, it should give them a suitable error message.
 '''
+
+while choice =! 1 && choice =! 2:
+  choice = int(input("1) Square\n2)Triangle\n\nEnter a number: "))
