@@ -12,7 +12,7 @@ the are. If they type in anything else, it should give them a suitable error mes
 '''
 import math
 
-while choice != 1 && choice != 2:
+while choice != 1 and choice != 2:
   choice = int(input("1) Square\n2)Triangle\n\nEnter a number: "))
   if choice == 1:
     sideLength = float(input("Provide now the length of one of its side: "))
