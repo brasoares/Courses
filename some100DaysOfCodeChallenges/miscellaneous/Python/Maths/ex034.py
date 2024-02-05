@@ -21,7 +21,7 @@ if choice == 1:
 elif choice == 2:
   base = float(input("Provide the base value: "))
   height = float(input("Provide the height value: "))
-  area = 
-  
+  area = 0.5 * base * height
+  print(f"Area: {area}")
 else:
   print("Invalid choice. Please choose between options 1 and 2: ")
