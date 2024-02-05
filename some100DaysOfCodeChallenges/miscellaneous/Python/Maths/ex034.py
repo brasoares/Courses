@@ -15,7 +15,7 @@ import math
 choice = 0
 
 while choice != 1 and choice != 2:
-  choice = int(input("1) Square\n2)Triangle\n\nEnter a number: "))
+  choice = int(input("1) Square\n2) Triangle\n\nEnter a number: "))
   if choice == 1:
     sideLength = float(input("Provide now the length of one of its side: "))
     area = pow(sideLength, 2)
