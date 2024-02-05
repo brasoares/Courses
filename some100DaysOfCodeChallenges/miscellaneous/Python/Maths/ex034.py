@@ -14,14 +14,14 @@ import math
 
 while choice != 1 && choice != 2:
   choice = int(input("1) Square\n2)Triangle\n\nEnter a number: "))
-if choice == 1:
-  sideLength = float(input("Provide now the length of one of its side: "))
-  area = pow(sideLength, 2)
-  print(f"Area: {area}")
-elif choice == 2:
-  base = float(input("Provide the base value: "))
-  height = float(input("Provide the height value: "))
-  area = 0.5 * base * height
-  print(f"Area: {area}")
-else:
-  print("Invalid choice. Please choose between options 1 and 2: ")
+  if choice == 1:
+    sideLength = float(input("Provide now the length of one of its side: "))
+    area = pow(sideLength, 2)
+    print(f"Area: {area}")
+  elif choice == 2:
+    base = float(input("Provide the base value: "))
+    height = float(input("Provide the height value: "))
+    area = 0.5 * base * height
+    print(f"Area: {area}")
+  else:
+    print("Invalid choice. Please choose between options 1 and 2: ")
