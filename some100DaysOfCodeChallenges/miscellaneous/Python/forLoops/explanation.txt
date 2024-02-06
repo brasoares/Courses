@@ -1,0 +1,6 @@
+'''
+Explanation
+A for loop allows Python to keep repeating code a set number of times. It is sometimes
+known as a counting loop because you know the number of times the loop will run
+before it starts.
+'''
