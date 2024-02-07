@@ -6,5 +6,5 @@ number of times.
 
 users_name = input("Please, enter you first name: ")
 times = int(input("Enter a number: "))
-for i in range (0, times+1):
+for i in range (0, times):
   print(users_name)
