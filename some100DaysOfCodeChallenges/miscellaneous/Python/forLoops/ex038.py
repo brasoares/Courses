@@ -12,5 +12,6 @@ they entered.
 name = input("Please, enter your name: ")
 times = int(input("Enter the number of time you want to see your name letter by letter: "))
 
-for char in name:
-  print(char)
+for _ in range(times)
+  for char in name:
+    print(char)
