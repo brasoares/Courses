@@ -1,4 +1,5 @@
-
-public static void main(String a[]) {
-    System.out.println("Le Grand Architecte De L'Univers");
+class LeGrandArchitecteDeLUnivers {
+    public static void main(String a[]) {
+        System.out.println("Le Grand Architecte De L'Univers");
+    }
 }
