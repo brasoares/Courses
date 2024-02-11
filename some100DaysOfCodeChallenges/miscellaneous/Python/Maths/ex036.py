@@ -5,4 +5,5 @@ number of times.
 '''
 
 name = input("Enter your name: ")
-print(name * 3)
+times = int(input("Enter a number: ")
+print(name * times)
