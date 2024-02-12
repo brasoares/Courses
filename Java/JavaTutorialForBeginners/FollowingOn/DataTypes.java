@@ -1,8 +1,8 @@
 public class DataTypes 
 {
-    public static void main(Strings a[])
+    public static void main(String a[])
     {
-     float marks = 9.999; 
-     byte  trezentos = 333;
+     float marks = 9.999f; 
+     byte  by = 126;
     }
 }
