@@ -10,8 +10,8 @@ while num > 49 and num < 0:
 
 counter = 50
 
-for counter in range(50)
+for counter in range(50):
    counter -= 1
-   if counter == num
+   if counter == num:
      print(f"You entered {counter}.")
      break
