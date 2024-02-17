@@ -8,4 +8,10 @@ num = 50
 while num > 49 and num < 0:
   num = int(input("Please, enter a number that is less than 50 and starts from 0: "))
 
+counter = 50
 
+for counter in range(50)
+   counter -= 1
+   if counter == num
+     print(f"You entered {counter}.")
+     break
