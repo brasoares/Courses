@@ -15,6 +15,6 @@ while n < 1:
     n = int(input("Now, please, enter a number: "))
 
 if n < 10:
-    print(name * n)
+    print(f"{name} " * n)
 else:
     print("Too high" * 3)
