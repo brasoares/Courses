@@ -9,6 +9,7 @@ high” three times.
 """
 
 name = input("Enter your name: ")
+n = 0
 
 while n < 1:
     n = int(input("Now, please, enter a number: "))
