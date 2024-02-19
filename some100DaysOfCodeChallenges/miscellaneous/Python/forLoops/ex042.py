@@ -11,7 +11,7 @@ total = 0
 n = 0
 
 for counter in range(5):
-  if counter < 4:
+  if counter < 5:
     n = int(input("Enter a number: "))
     total += n
   elif n >= 4:
