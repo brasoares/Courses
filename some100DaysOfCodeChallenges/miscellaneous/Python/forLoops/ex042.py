@@ -8,17 +8,11 @@ numbers, display the total.
 '''
 
 total = 0
-n = 0
 
 for counter in range(5):
-  if counter < 5:
-    n = int(input("Enter a number: "))
+  n = int(input("Enter a number: "))
+  choice = input("Do you want to include the last input in the sum? (Y or N): ")
+  if choice == 'y':
     total += n
-  elif n >= 5:
-    choice = input("Do you want to include the last input in the sum? (Y or N): ")
-    if choice.lower() == 'y':
-      total += n
-      print(f"{total}")
-    else:
-      print(total)
-    
+
+print(total)
