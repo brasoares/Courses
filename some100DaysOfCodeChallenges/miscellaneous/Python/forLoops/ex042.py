@@ -16,7 +16,7 @@ for i in range(total):
     total += n
   elif i == 4:
     choice = input("Do you want to include the last input in the sum? (Y or N): ")
-    if choice.lower() == 'y'
+    if choice.lower() == 'y':
       total += n
       print(f"{total}")
 else:
