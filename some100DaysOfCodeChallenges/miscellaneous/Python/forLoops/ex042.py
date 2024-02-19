@@ -11,7 +11,7 @@ total = 0
 
 for counter in range(5):
   n = int(input("Enter a number: "))
-  choice = input("Do you want to include it to the sum? (Y or N): ")
+  choice = input(f"Do you want to include {n} to the sum? (Y or N): ")
   if choice == 'y':
     total += n
 
