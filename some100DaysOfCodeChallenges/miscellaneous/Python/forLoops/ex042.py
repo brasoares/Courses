@@ -19,6 +19,6 @@ for counter in range(5):
     if choice.lower() == 'y':
       total += n
       print(f"{total}")
-else:
-  print(total)
+  else:
+    print(total)
     
