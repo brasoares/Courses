@@ -10,11 +10,11 @@ numbers, display the total.
 total = 0
 n = 0
 
-for i in range(total):
-  if i < 4:
+for n in range(total):
+  if n < 4:
     n = int(input("Enter a number: "))
     total += n
-  elif i == 4:
+  elif n == 4:
     choice = input("Do you want to include the last input in the sum? (Y or N): ")
     if choice.lower() == 'y':
       total += n
