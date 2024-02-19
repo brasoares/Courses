@@ -10,7 +10,7 @@ numbers, display the total.
 total = 0
 n = 0
 
-for counter in range(total):
+for counter in range(5):
   if n < 4:
     n = int(input("Enter a number: "))
     total += n
