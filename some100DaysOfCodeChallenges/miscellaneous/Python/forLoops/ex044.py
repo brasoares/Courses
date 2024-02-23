@@ -7,7 +7,7 @@ enter a number which is 10 or higher, display the message “Too many people”.
 n_count = int(input("How many people will be invited to the party? "))
 
 if n_count < 10:
-  for i in range(n_count):
+  for i in range(1, n_count+1):
     name = input(f"Tell me each name, person {i}: ")
     print(name)
 else:
