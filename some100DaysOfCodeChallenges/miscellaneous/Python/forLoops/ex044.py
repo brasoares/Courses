@@ -3,3 +3,10 @@ Ask how many people the user wants to invite to a party. If they enter a number 
 10, ask for the names and after each name display “[name] has been invited”. If they
 enter a number which is 10 or higher, display the message “Too many people”.
 '''
+
+n_count = int(input("How many people will be invited to the party? "))
+
+if n_count < 10:
+  for i in range(n_count):
+else:
+  
