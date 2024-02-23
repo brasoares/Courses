@@ -8,5 +8,7 @@ n_count = int(input("How many people will be invited to the party? "))
 
 if n_count < 10:
   for i in range(n_count):
+    name = input(f"Tell me each name, person {i}: ")
+    print(name)
 else:
-  
+  print("Too many people")
