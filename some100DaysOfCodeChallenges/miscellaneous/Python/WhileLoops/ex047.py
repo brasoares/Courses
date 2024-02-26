@@ -34,4 +34,6 @@ while choice != 'n':
     except ValueError:
       print("Invalid input! Please enter a valid integer.")
   else:
-    print("Total sum: ",total)
+    print("Invalid input! Please enter a valid integer.")
+
+print(total)
