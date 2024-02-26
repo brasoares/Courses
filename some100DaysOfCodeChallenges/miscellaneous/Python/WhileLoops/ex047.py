@@ -22,8 +22,8 @@ choice = input("Do you wish to sum a new number? (Y/N) ").strip().lower()
 while choice != 'n':
   if choice == 'y':
     try:
-    n = int(input("Enter an integer: "))
-    total += n
+      n = int(input("Enter an integer: "))
+      total += n
 except ValueError:
   print("Invalid input! Please enter a valid integer.")
 
