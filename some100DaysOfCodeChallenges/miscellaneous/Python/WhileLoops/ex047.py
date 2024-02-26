@@ -19,3 +19,9 @@ n2 = int(input("Enter a second integer: "))
 total = n1 + n2
 
 choice = input("Do you wish to sum a new number? (Y/N) ").lower()
+while choice == 'y':
+  n = int(input("Enter an integer: "))
+  total += n
+  choice = input("Do you wish to sum a new number? (Y/N) ").lower()
+
+print(total)
