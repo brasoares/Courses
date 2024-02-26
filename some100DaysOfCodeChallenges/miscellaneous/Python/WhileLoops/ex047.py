@@ -14,7 +14,14 @@ the total.
 '''
 
 n1 = int(input("Enter an integer: "))
-n2 = int(input("Enter a second integer: "))
+
+# While loop to ensure the entered value is an integer
+while True:
+  try:
+    n2 = int(input("Enter a second integer: ")
+    break # Exit the loop if conversion to integer is successful
+  except ValueError:
+    print("Invalid input! Please enter a valid integer.")
 
 total = n1 + n2
 
@@ -26,7 +33,6 @@ while choice != 'n':
       total += n
     except ValueError:
       print("Invalid input! Please enter a valid integer.")
-
   else:
     choice = input("Do you wish to sum a new number? (Y/N) ").lower()
 
