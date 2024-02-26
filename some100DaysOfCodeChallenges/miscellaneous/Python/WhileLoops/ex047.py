@@ -38,4 +38,4 @@ while choice != 'n':
 
   choice = input("Do you wish to sum a new number? (Y/N) ").strip().lower()
 
-print(total)
+print("Total: ",total)
