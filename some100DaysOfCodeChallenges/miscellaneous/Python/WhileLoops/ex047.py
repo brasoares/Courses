@@ -18,7 +18,7 @@ n1 = int(input("Enter an integer: "))
 # While loop to ensure the entered value is an integer
 while True:
   try:
-    n2 = int(input("Enter a second integer: ")
+    n2 = int(input("Enter a second integer: "))
     break # Exit the loop if conversion to integer is successful
   except ValueError:
     print("Invalid input! Please enter a valid integer.")
