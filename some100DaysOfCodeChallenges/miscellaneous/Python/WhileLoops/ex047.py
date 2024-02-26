@@ -34,6 +34,4 @@ while choice != 'n':
     except ValueError:
       print("Invalid input! Please enter a valid integer.")
   else:
-    choice = input("Do you wish to sum a new number? (Y/N) ").lower()
-
-print("Total sum: ",total)
+    print("Total sum: ",total)
