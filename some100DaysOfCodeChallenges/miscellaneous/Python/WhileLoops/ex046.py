@@ -12,6 +12,6 @@ stop the program.
 n = 0
 
 while n < 6:
-  n = int(input("Enter a number: "))
+  n = int(input("Enter a random number: "))
 
 print(f"The last number you entered was a {n}.")
