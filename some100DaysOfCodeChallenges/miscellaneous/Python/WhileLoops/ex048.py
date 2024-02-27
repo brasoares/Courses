@@ -7,3 +7,5 @@ until they no longer want to invite anyone else to the
 party and then display how many people they have
 coming to the party.
 '''
+
+guest = input("Enter your guest's name: ")
