@@ -17,6 +17,8 @@ copnum = 50
 number = 0
 i = 0
 
+number = int(input("Enter a number: "))
+
 while copnum != number:
   i += 1
   if number == copnum:
