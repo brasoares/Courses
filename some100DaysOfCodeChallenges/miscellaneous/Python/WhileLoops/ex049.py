@@ -14,18 +14,17 @@ message “Well done, you
 took [count] attempts”.
 '''
 copnum = 50
+number = 0
 i = 0
 
 while True:
-  number = int(input("Enter a number: "))
-  i += 1
-  
-  if number == copnum:
-    print(f"Well done, you took {i} attempts")
-    break
-  elif number < copnum:
-    print("Too low")
-  else:
-    print("Too high")
-  
-  number = int(input("Enter a number: "))
+    number = int(input("Enter a number: "))
+    i += 1
+    
+    if number == copnum:
+        print(f"Well done, you took {i} attempts")
+        break
+    elif number < copnum:
+        print("Too low")
+    else:
+        print("Too high")
