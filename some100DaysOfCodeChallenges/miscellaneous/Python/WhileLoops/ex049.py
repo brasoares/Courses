@@ -14,7 +14,6 @@ message “Well done, you
 took [count] attempts”.
 '''
 copnum = 50
-number = 0
 i = 0
 
 while True:
