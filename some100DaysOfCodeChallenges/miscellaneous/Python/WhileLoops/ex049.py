@@ -16,7 +16,7 @@ took [count] attempts”.
 copnum = 50
 
 while copnum != number:
-  i++
+  i += 1
   if number == copnum:
     print("Well done, you took {i} attempts")
   elif number < copnum:
