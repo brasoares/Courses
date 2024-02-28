@@ -22,7 +22,7 @@ number = int(input("Enter a number: "))
 while copnum != number:
   i += 1
   if number == copnum:
-    print("Well done, you took {i} attempts")
+    print(f"Well done, you took {i} attempts")
     break
   elif number < copnum:
     print("Too low")
