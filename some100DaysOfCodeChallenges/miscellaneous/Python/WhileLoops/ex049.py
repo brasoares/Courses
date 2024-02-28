@@ -17,10 +17,10 @@ copnum = 50
 number = 0
 i = 0
 
-number = int(input("Enter a number: "))
-
-while copnum != number:
+while True:
+  number = int(input("Enter a number: "))
   i += 1
+  
   if number == copnum:
     print(f"Well done, you took {i} attempts")
     break
