@@ -15,6 +15,7 @@ took [count] attempts”.
 '''
 copnum = 50
 number = 0
+i = 0
 
 while copnum != number:
   i += 1
