@@ -16,4 +16,6 @@ while True:
     print("Too high")
   elif n < 20:
     print("Too low")
-print("Thank you")
+  else:
+    print("Thank you")
+    break
