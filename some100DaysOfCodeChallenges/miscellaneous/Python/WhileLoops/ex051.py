@@ -19,9 +19,9 @@ while True:
 
     if how_many == num:
         print(f"There will be {num} green bottles hanging on the wall.")
-        num -= 1
         if num == 0:
             print("There are no more green bottles hanging on the wall.")
             break
+        num -= 1
     else:
         print("No, try again")
