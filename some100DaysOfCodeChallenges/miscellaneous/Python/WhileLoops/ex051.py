@@ -10,18 +10,18 @@ down to 0, display the message “There are no more green bottles hanging on the
 
 num = 10
 
-print(
-    f"There are {num} green bottles hanging on the wall, {num} green bottles hanging on the wall, and if 1 green bottle should accidentally fall"
-)
-
-while True:
-    how_many = int(input("How many green bottles will be hanging on the wall? "))
-
-    if how_many == num:
-        print(f"There will be {num} green bottles hanging on the wall.")
-        if num == 0:
-            print("There are no more green bottles hanging on the wall.")
+while num > 0:
+    print(
+        f"There are {num} green bottles hanging on the wall, {num} green bottles hanging on the wall, and if 1 green bottle should accidentally fall"
+    )
+    while True:
+        how_many = int(input("How many green bottles will be hanging on the wall? "))
+        if how_many == num - 1:
+            print(f"There will be {how_many} green bottles hanging on the wall.")
             break
-        num -= 1
-    else:
-        print("No, try again")
+        else:
+            print("No, try again")
+    num -= 1
+
+if num == 0:
+    print("There are no more green bottles hanging on the wall.")
