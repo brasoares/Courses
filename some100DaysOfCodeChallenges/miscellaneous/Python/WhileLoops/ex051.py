@@ -18,7 +18,7 @@ while True:
   if num == 0:
     print("There are no more green bottles hanging on the wall.")
     break
-  elif how_many = num:
+  elif how_many == num:
     print(f"There will be {num} green bottles hanging on the wall.")
     break
   elif how_many != num:
