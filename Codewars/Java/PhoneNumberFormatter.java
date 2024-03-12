@@ -11,7 +11,7 @@
 
 public class Kata {
   public static String createPhoneNumber(int[] numbers) {
-      // Convert the array's values into a formatted US phone number style output
+      // Convert the array's values into a formatted US phone number style for the output
       StringBuilder sb = new StringBuilder("(");
       // Append first three values in the format of (XXX)
       for (int i = 0; i < 3; i++) {
