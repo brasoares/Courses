@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
-  printf("Expelliarmus!");
-  return 0;
+int main( ) {
+    printf("Expelliarmus!\n");
+    return 0;
 }
