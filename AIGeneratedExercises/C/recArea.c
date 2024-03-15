@@ -3,6 +3,10 @@
 int main() {
     // Declare variables for length, width, and area
 
+    float length = 0;
+    float width = 0;
+    float area = 0;
+
     // Prompt the user to enter the length of the rectangle
 
     // Read the length from the user input
