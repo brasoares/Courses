@@ -25,6 +25,8 @@ int main() {
 
     // Calculate the area of the rectangle
 
+    area = length * width;
+
     // Display the result
 
     return 0;
