@@ -13,7 +13,7 @@ int main() {
 
     // Read the length from the user input
 
-    scanf("%f", &length)
+    scanf("%f", &length);
 
     // Prompt the user to enter the width of the rectangle
 
@@ -29,7 +29,7 @@ int main() {
 
     // Display the result
 
-    printf("%f", &area)
+    printf("%f", &area);
 
     return 0;
 }
