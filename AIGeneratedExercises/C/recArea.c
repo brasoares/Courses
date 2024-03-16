@@ -13,6 +13,8 @@ int main() {
 
     // Read the length from the user input
 
+    scanf("%f", &length)
+
     // Prompt the user to enter the width of the rectangle
 
     // Read the width from the user input
