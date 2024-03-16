@@ -9,6 +9,8 @@ int main() {
 
     // Prompt the user to enter the length of the rectangle
 
+    printf("Enter the rectangle's length: ");
+
     // Read the length from the user input
 
     // Prompt the user to enter the width of the rectangle
