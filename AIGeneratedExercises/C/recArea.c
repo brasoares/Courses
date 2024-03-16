@@ -17,7 +17,11 @@ int main() {
 
     // Prompt the user to enter the width of the rectangle
 
+    printf("Enter the rectangle's width: ");
+
     // Read the width from the user input
+
+    scanf("%f", &width);
 
     // Calculate the area of the rectangle
 
