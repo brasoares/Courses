@@ -29,5 +29,7 @@ int main() {
 
     // Display the result
 
+    printf("%f", &area)
+
     return 0;
 }
