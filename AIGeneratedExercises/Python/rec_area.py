@@ -1,4 +1,8 @@
 // Declare variables for length, width, and area
+
+l = 0
+w = 0
+area = 0
 // Prompt the user to enter the length of the rectangle
 // Read the length from the user input
 // Prompt the user to enter the width of the rectangle
