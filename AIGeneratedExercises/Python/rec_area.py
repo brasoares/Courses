@@ -1,4 +1,4 @@
-// Declare variables for length, width, and area
+// Declare length, width, and area variables
 
 l = 0
 w = 0
