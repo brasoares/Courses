@@ -9,7 +9,6 @@ area = 0
 l = float(input("Enter the rectangle's length: "
 
 
-// Read the length from the user input
 // Prompt the user to enter the width of the rectangle
 // Read the width from the user input
 // Calculate the area of the rectangle
