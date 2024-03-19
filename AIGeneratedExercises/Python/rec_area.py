@@ -3,6 +3,7 @@
 l = 0
 w = 0
 area = 0
+
 // Prompt the user to enter the length of the rectangle
 
 l = float(input("Enter the rectangle's length: "
