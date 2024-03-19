@@ -17,3 +17,5 @@ w = float(input("Enter the rectangle's width: "
 area = l * w
 
 // Display the result
+
+print(area)
