@@ -6,7 +6,7 @@ area = 0
 
 // Prompt the user to enter and read the length of the rectangle
 
-l = float(input("Enter the rectangle's length: "
+l = float(input("Enter the rectangle's length: "))
 
 // Prompt the user to enter and read the width from the user input
 
