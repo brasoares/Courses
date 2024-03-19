@@ -10,3 +10,14 @@ int main () {
 
   return 0;
 }
+
+/* Example results:
+
+Value of num: 999
+Address of num: 0x7ffdb40cc13c
+Value of num using pointer: 999
+Address stored in pointer: 0x7ffdb40cc13c
+
+As per run on: https://ide.geeksforgeeks.org/online-c-compiler
+
+*/
