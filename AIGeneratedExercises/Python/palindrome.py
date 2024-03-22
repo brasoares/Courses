@@ -4,5 +4,5 @@ checker = list(entrada)
 for letter in checker:
    validation.append(letter)
 
-if validation == validation:
+if validation == checker:
    print(f"A palavra informada é um palíndromo!/n{checker} = {validation}!")
