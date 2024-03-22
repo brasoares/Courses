@@ -8,3 +8,6 @@ for letter in checker:
 
 if validation == checker:
    print(f"A palavra informada é um palíndromo!/n{checker} = {validation}!")
+
+else:
+   print("A palavra digitada não é um palíndromo.")
