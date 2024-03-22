@@ -1,6 +1,8 @@
 entrada = input("Informe a palavra: ")
 checker = list(entrada)
 
+validation = [ ]
+
 for letter in checker:
    validation.append(letter)
 
