@@ -3,7 +3,7 @@ checker = list(entrada)
 
 validation = [ ]
 
-for letter in checker:
+for letter in range(len(checker) -1, -1, -1):
    validation.append(letter)
 
 if validation == checker:
