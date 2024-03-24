@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main () {
-  char word;
+  char word[18];
   printf("Entre com a palavra: ");
   scanf("%s", &word);
 
