@@ -6,7 +6,7 @@ int main () {
   scanf("%s", word);
 
   for(i = 0; str[i] != '\0'; i++) {
-    
+    reversed[i] = word[length - i - 1]
   }
   
   return 0;
