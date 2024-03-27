@@ -15,7 +15,7 @@ int main () {
   if reversed == word:
     print
   else:
-    print
+    print("%s is not a palindrome.\n", word);
   }
   
   return 0;
