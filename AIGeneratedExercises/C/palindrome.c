@@ -11,6 +11,11 @@ int main () {
 
   for(i = 0; str[i] != '\0'; i++) {
     reversed[i] = word[length - i - 1]
+
+  if reversed == word:
+    print
+  else:
+    print
   }
   
   return 0;
