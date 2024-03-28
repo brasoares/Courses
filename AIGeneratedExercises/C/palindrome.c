@@ -9,6 +9,9 @@ int main () {
   int length = strlen(word);
   char reversed[length + 1];
 
+  
+  int i;
+
   for(i = 0; str[i] != '\0'; i++) {
     reversed[i] = word[length - i - 1]
 
