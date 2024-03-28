@@ -12,7 +12,7 @@ int main () {
   
   int i;
 
-  for(i = 0; str[i] != '\0'; i++) {
+  for(i = 0; i < length; i++) {
     reversed[i] = word[length - i - 1]
 
   if reversed == word:
