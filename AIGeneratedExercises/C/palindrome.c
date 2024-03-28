@@ -9,7 +9,6 @@ int main () {
   int length = strlen(word);
   char reversed[length + 1];
 
-  
   int i;
 
   for(i = 0; i < length; i++) {
