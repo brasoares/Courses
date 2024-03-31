@@ -3,7 +3,7 @@ include <stdio.h>
 char userChoice;
 
 printf("Enter you choice: ");
-scanf("%s", &userChoice);
+scanf("%c", &userChoice);
 
 switch(userChoice) {
   case 'a':
