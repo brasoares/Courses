@@ -1,3 +1,23 @@
+/* Import font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap')
+
+
+/* Apply font-family */
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-optical-sizing: auto;
+}
+
 p {
     font-size: 15px;
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1440px)  {
+    
 }
