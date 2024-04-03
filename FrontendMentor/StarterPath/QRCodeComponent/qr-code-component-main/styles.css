@@ -12,6 +12,7 @@
 /* Apply font-family */
 
 body {
+    background-color: var(--white);
     font-family: 'Outfit', sans-serif;
     font-optical-sizing: auto;
 }
