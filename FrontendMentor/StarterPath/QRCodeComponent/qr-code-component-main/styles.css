@@ -11,13 +11,17 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
-/* Apply font-family */
+/* Apply font-family 
 
 body {
-    background-color: var(--white);
+    background-color: var(--grayish-blue);
     font-family: 'Outfit', sans-serif;
     font-optical-sizing: auto;
+}*/
+body {
+    background-color: hsl(220, 15%, 55%);
 }
+
 
 @media only screen and (max-width: 375px) {
     p {
