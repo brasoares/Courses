@@ -22,6 +22,10 @@ body {
     background-color: hsl(220, 15%, 55%);
 }
 
+.rounded_qrCode {
+    border-radius: 50%;
+}
+
 
 @media only screen and (max-width: 375px) {
     p {
