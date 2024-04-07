@@ -20,6 +20,7 @@ body {
 }*/
 body {
     background-color: hsl(220, 15%, 55%);
+    text-align: center;
 }
 
 .rounded_qrCode {
