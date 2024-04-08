@@ -37,8 +37,10 @@ figcaption {
 
 .qrcode {
     display: flex;
+    flex-direction: column;
     justify-content: center; /* This aligns the content of the div horizontally to the center */
     align-items: center; /* This aligns the content of the div vertically to the center */
+    position: absolute; /* This takes the .qrcode div out of the normal document flow, allowing absolute positioning for precise centering. */
 }
 
 @media only screen and (max-width: 375px) {
