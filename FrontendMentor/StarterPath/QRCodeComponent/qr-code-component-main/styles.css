@@ -35,6 +35,12 @@ figcaption {
     display: none;
 }
 
+.qrcode {
+    display: flex;
+    justify-content: center; /* This aligns the content of the div horizontally to the center */
+    align-items: center; /* This aligns the content of the div vertically to the center */
+}
+
 @media only screen and (max-width: 375px) {
     p {
         font-size: 12px;
