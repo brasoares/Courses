@@ -60,5 +60,12 @@ figcaption {
     }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    position: fixed; /* Position the element relative to the viewport */
+    bottom: 0;
+    left: 0;
+    font-size: 11px; 
+    text-align: center; 
+
+}
 .attribution a { color: hsl(228, 45%, 44%); }
