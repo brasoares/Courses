@@ -27,6 +27,13 @@ body {
     border-radius: 4%;
 }
 
+.strong {
+    font-weight: bold;
+}
+
+figcaption {
+    display: none;
+}
 
 @media only screen and (max-width: 375px) {
     p {
