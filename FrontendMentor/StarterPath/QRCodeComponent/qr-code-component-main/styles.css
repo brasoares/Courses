@@ -1,23 +1,16 @@
 /* Import font-family */
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-@media screen {
-    /* CSS variables for this product */
-    :root {
-        --white: hsl(0, 0%, 100%);
-        --light-gray: hsl(212, 45%, 89%);
-        --grayish-blue: hsl(220, 15%, 55%);
-        --dark-blue: hsl(218, 44%, 22%);  
-    }
-}
-/* Apply font-family 
+/* Define CSS variables */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+  }
+  
 
-body {
-    background-color: var(--grayish-blue);
-    font-family: 'Outfit', sans-serif;
-    font-optical-sizing: auto;
-}*/
 body {
   background-color: rgb(213, 225, 239);
   text-align: center;
