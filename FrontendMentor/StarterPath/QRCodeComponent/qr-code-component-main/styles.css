@@ -1,16 +1,16 @@
 /* Import font-family */
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap")
 
-/* CSS variables for this product */
-
-:root {
-    --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+@media screen {
+    /* CSS variables for this product */
+    :root {
+        --white: hsl(0, 0%, 100%);
+        --light-gray: hsl(212, 45%, 89%);
+        --grayish-blue: hsl(220, 15%, 55%);
+        --dark-blue: hsl(218, 44%, 22%);  
+    }
 }
-
 /* Apply font-family 
 
 body {
@@ -19,53 +19,58 @@ body {
     font-optical-sizing: auto;
 }*/
 body {
-    background-color: rgb(213, 225, 239);
-    text-align: center;
+  background-color: rgb(213, 225, 239);
+  text-align: center;
 }
 
 .rounded_qrCode {
-    border-radius: 4%;
+  border-radius: 4%;
 }
 
 .strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 figcaption {
-    display: none;
+  display: none;
 }
 
 .qrcode {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* This aligns the content of the div horizontally to the center */
-    align-items: center; /* This aligns the content of the div vertically to the center */
-    position: absolute; /* This takes the .qrcode div out of the normal document flow, allowing absolute positioning for precise centering. */
-    top: 50%; /* Set top position to 50vh for vertical centering */
-    left: 50%; /* Set left position to 50vw for horizontal centering */
-    /* These properties set the top and left positions of the div to 50% viewport height (vh) and 50% viewport width (vw), respectively. This roughly places the div's top left corner in the center of the viewport. */
-    transform: translate(-50%, -50%); /* Translate to compensate for its own dimensions */
-    /* transform: translate(-50%, -50%);: This uses the transform property to translate (move) the div by half its width and height on both axes. This effectively centers the div's center point within the viewport, regardless of its content size. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* This aligns the content of the div horizontally to the center */
+  align-items: center; /* This aligns the content of the div vertically to the center */
+  position: absolute; /* This takes the .qrcode div out of the normal document flow, allowing absolute positioning for precise centering. */
+  top: 50%; /* Set top position to 50vh for vertical centering */
+  left: 50%; /* Set left position to 50vw for horizontal centering */
+  /* These properties set the top and left positions of the div to 50% viewport height (vh) and 50% viewport width (vw), respectively. This roughly places the div's top left corner in the center of the viewport. */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Translate to compensate for its own dimensions */
+  /* transform: translate(-50%, -50%);: This uses the transform property to translate (move) the div by half its width and height on both axes. This effectively centers the div's center point within the viewport, regardless of its content size. */
 }
 
 @media only screen and (max-width: 375px) {
-    p {
-        font-size: 12px;
-    }
+  p {
+    font-size: 12px;
+  }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1440px)  {
-    p {
-        font-size: 14px;
-    }
+@media only screen and (min-width: 375px) and (max-width: 1440px) {
+  p {
+    font-size: 14px;
+  }
 }
 
-.attribution { 
-    position: fixed; /* Position the element relative to the viewport */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-size: 11px; 
-    text-align: center; 
+.attribution {
+  position: fixed; /* Position the element relative to the viewport */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
