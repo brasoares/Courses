@@ -53,16 +53,16 @@ figcaption {
     ); /* Translate to compensate for its own dimensions */
     /* transform: translate(-50%, -50%);: This uses the transform property to translate (move) the div by half its width and height on both axes. This effectively centers the div's center point within the viewport, regardless of its content size. */
   }
-  .attribution {
-    position: fixed; /* Position the element relative to the viewport */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  
+}
+
+.footer {
+  position: fixed; /* Position the element relative to the viewport */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
 }
 
