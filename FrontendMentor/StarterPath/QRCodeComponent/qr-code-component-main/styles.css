@@ -34,6 +34,7 @@ figcaption {
 
   .qrcode img {
     max-width: 100%; /* To make the image responsive */
+    height: auto;
   }
 }
 
