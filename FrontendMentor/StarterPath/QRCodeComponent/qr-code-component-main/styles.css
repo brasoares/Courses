@@ -1,5 +1,4 @@
 /* Import font-family */
-
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 /* Define CSS variables */
@@ -32,10 +31,6 @@ figcaption {
     font-size: 12px;
   }
 
-  .qrcode {
-    max-width: 100%; /* To make the image responsive */
-    height: auto;
-  }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 1440px) {
@@ -46,29 +41,21 @@ figcaption {
   .qrcode {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* This aligns the content of the div horizontally to the center */
-    align-items: center; /* This aligns the content of the div vertically to the center */
-    position: absolute; /* This takes the .qrcode div out of the normal document flow, allowing absolute positioning for precise centering. */
-    top: 50%; /* Set top position to 50vh for vertical centering */
-    left: 50%; /* Set left position to 50vw for horizontal centering */
-    /* These properties set the top and left positions of the div to 50% viewport height (vh) and 50% viewport width (vw), respectively. This roughly places the div's top left corner in the center of the viewport. */
-    transform: translate(
-      -50%,
-      -50%
-    ); /* Translate to compensate for its own dimensions */
-    /* transform: translate(-50%, -50%);: This uses the transform property to translate (move) the div by half its width and height on both axes. This effectively centers the div's center point within the viewport, regardless of its content size. */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  
 }
 
 .footer {
-  position: fixed; /* Position the element relative to the viewport */
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  font-size: 11px;
+  font-size: 14px; /* Adjusted from 11px */
   text-align: center;
   color: hsl(228, 45%, 44%);
-  font-size: 14px;
 }
-
