@@ -39,7 +39,7 @@ img {
 
 @media only screen and (min-width: 375px) and (max-width: 1440px) {
   p {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .qrcode {
