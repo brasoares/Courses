@@ -59,7 +59,7 @@ img {
   bottom: 0;
   left: 0;
   width: 100%;
-  font-size: 14px; /* Adjusted from 11px */
+  font-size: 15px; /* Adjusted from 11px */
   text-align: center;
   color: hsl(228, 45%, 44%);
 }
