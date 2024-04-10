@@ -26,15 +26,15 @@ figcaption {
   display: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  }
+
 @media only screen and (max-width: 375px) {
   p {
     font-size: 12px;
   }
-
-  img {
-    max-width: 100%;
-    height: auto;
-    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 1440px) {
