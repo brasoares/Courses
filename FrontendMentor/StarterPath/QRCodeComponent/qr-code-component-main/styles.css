@@ -32,7 +32,7 @@ figcaption {
     font-size: 12px;
   }
 
-  .qrcode img {
+  .qrcode {
     max-width: 100%; /* To make the image responsive */
     height: auto;
   }
