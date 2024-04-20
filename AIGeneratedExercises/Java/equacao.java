@@ -18,4 +18,5 @@ public class EncontrarIncognita {
     double x = (c - b) / a;
 
     System.out.println("The value of the unknown x is: " + x);
+  }
 }
