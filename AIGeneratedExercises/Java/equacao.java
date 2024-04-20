@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class EncontrarIncognita {
-  public static void main(Strin[] args) {
+  public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Digite os valores de a, b e c na equação ax + b = c:");
