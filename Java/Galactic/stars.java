@@ -2,6 +2,8 @@
 
 public class BrightestStar {
   public static void main (string[] args) {
-    
+    private String name;
+    private double radius; // in solar radii
+    private double apparentMag; // perceived brightness
   }
 }
