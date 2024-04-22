@@ -6,5 +6,12 @@ public class BrightestStar {
   private String name;
   private double radiusSolarRadii; // Radius in solar radii (for reference)
   private double apparentMag; // Perceived brightness  
+
+  // Constructor to initialize the properties
+  public BrightestStar(String name, double radiusSolarRadii, double apparentMag) {
+    this.name = name;
+    this.radiusSolarRadii = radiusSolarRadii;
+    this.apparentMag = apparentMag;
+  }
   
 }
