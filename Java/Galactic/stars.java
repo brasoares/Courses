@@ -3,9 +3,8 @@
 public class BrightestStar {
 
   // Ideally, properties should have access modifiers (private here)
-  
-    private String name;
-    private double radius; // in solar radii
-    private double apparentMag; // perceived brightness
+  private String name;
+  private double radiusSolarRadii; // Radius in solar radii (for reference)
+  private double apparentMag; // perceived brightness  
   
 }
