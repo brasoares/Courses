@@ -13,5 +13,17 @@ public class BrightestStar {
     this.radiusSolarRadii = radiusSolarRadii;
     this.apparentMag = apparentMag;
   }
-  
+
+  // Getter methods for accessing properties
+  public String getName() {
+    return name;
+  }
+
+  public double getRadiusSolarRadii() {
+    return radiusSolarRadii;
+  }
+
+  public double getApparentMag() {
+    return apparentMag;
+  }
 }
