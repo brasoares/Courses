@@ -29,6 +29,6 @@ public class BrightestStars {
 
   public static void main(String[] args){
     // Create BrightestStar objects with static data
-    BrightestStars
+    BrightestStars sirius = new BrightestStars("Sirius", 1.18, -1.46);
   }
 }
