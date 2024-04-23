@@ -34,5 +34,6 @@ public class BrightestStars {
     BrightestStars alphaCentauri = new BrightestStars("Alpha Centauri", 4.3, -0.01);
     BrightestStars arcturus = new BrightestStars("Arcturus", 36, -0.05);
     BrightestStars vega = BrightestStars("Vega", 25, 0.03);
+    BrightestStars capella = new BrightestStars("Capella", 42, 0.08);
   }
 }
