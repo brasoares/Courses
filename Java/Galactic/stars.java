@@ -30,5 +30,8 @@ public class BrightestStars {
   public static void main(String[] args){
     // Create BrightestStar objects with static data
     BrightestStars sirius = new BrightestStars("Sirius", 1.18, -1.46);
+    BrightestStars canopus = new BrightestStars("Canopus", 310, -0.74);
+    BrightestStars alphaCentauri = new BrightestStars("Alpha Centauri", 4.3, -0.01);
+    BrightestStars arcturus = new BrightestStars("Arcturus", 36, -0.05);
   }
 }
