@@ -26,4 +26,8 @@ public class BrightestStar {
   public double getApparentMag() {
     return apparentMag;
   }
+
+  public static void main(String[] args){
+    // Create BrightestStar objects with static data
+  }
 }
