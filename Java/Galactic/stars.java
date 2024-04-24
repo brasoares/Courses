@@ -27,7 +27,7 @@ public class BrightestStars {
     return apparentMag;
   }
 
-  public static void main(String[] args){
+  public static void main(String[] args) {
     // Create BrightestStar objects with static data
     BrightestStars sirius = new BrightestStars("Sirius", 1.18, -1.46);
     BrightestStars canopus = new BrightestStars("Canopus", 310, -0.74);
