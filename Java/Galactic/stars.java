@@ -48,18 +48,18 @@ public class BrightestStars {
       choice = scanner.nextInt();
 
       switch (choice) {
-        case 1:
-          compareSpecificStars(scanner, sirius, canopus, alphaCentauri, arcturus, vega, capella);
-          break;
-        case 2:
-          compareRandomStars(sirius, canopus, alphaCentauri, arcturus, vega, capella);
-          break;
-        case 3:
-          System.out.println("Exiting program. Goodybye!");
-          break;
-        default:
-          System.out.println("Invalid choice. Please enter a valid option next time.");
-      
+      case 1:
+        compareSpecificStars(scanner, sirius, canopus, alphaCentauri, arcturus, vega, capella);
+        break;
+      case 2:
+        compareRandomStars(sirius, canopus, alphaCentauri, arcturus, vega, capella);
+        break;
+      case 3:
+        System.out.println("Exiting program. Goodybye!");
+        break;
+      default:
+        System.out.println("Invalid choice. Please enter a valid option next time.");
+
       }
       while (choice != 3);
     }
