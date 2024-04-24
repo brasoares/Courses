@@ -41,7 +41,7 @@ public class BrightestStars {
     int choice;
     do {
       System.out.println("\nMenu:");
-      
+      System.out.println("1. Compare two stars");
     }
   }
 }
