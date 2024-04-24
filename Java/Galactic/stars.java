@@ -49,7 +49,16 @@ public class BrightestStars {
 
       switch (choice) {
         case 1:
-          compareStars
+          compareSpecificStars(scanner, sirius, canopus, alphaCentauri, arcturus, vega, capella);
+          break;
+        case 2:
+          compareRandomStars(sirius, canopus, alphaCentauri, arcturus, vega, capella);
+          break;
+        case 3:
+          System.out.println("Exiting program. Goodybye!");
+          break;
+        default:
+          System.out.println("Invalid choice. Please enter a valid option next time.");
       
       }
     }
