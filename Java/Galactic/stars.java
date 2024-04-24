@@ -41,8 +41,9 @@ public class BrightestStars {
     int choice;
     do {
       System.out.println("\nMenu:");
-      System.out.println("1. Compare two stars");
-      System.out.println("2. Exit");
+      System.out.println("1. Compare two specific stars");
+      System.out.println("2. Compare randomly selected stars");
+      System.out.println("3. Exit");
       System.out.print("Enter your choice: ");
       choice = scanner.nextInt();
 
