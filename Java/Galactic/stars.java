@@ -61,6 +61,7 @@ public class BrightestStars {
           System.out.println("Invalid choice. Please enter a valid option next time.");
       
       }
+      while (choice != 3);
     }
   }
 }
