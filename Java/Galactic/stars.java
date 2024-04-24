@@ -35,5 +35,13 @@ public class BrightestStars {
     BrightestStars arcturus = new BrightestStars("Arcturus", 36, -0.05);
     BrightestStars vega = BrightestStars("Vega", 25, 0.03);
     BrightestStars capella = new BrightestStars("Capella", 42, 0.08);
+
+    // Menu-driven system
+    Scanner scanner = new Scanner(System.in);
+    int choice;
+    do {
+      System.out.println("\nMenu:");
+      
+    }
   }
 }
