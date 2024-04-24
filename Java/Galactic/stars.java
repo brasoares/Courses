@@ -45,6 +45,12 @@ public class BrightestStars {
       System.out.println("2. Exit");
       System.out.print("Enter your choice: ");
       choice = scanner.nextInt();
+
+      switch (choice) {
+        case 1:
+          compareStars
+      
+      }
     }
   }
 }
