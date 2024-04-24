@@ -43,6 +43,7 @@ public class BrightestStars {
       System.out.println("\nMenu:");
       System.out.println("1. Compare two stars");
       System.out.println("2. Exit");
+      System.out.print("Enter your choice: ");
     }
   }
 }
