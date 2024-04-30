@@ -14,6 +14,10 @@ public class PrimeGenerator{
         int m = 10;
         int n = 50;
         boolean[] prime = new boolean[n + 1];
+        sieveOfEratosthenes(m, n, prime);
     }
-}
+    
+    public static void sieveOfEratosthenes(int m, int n, boolean[] prime) {
+        
+    }
 
