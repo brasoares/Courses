@@ -23,7 +23,12 @@ public class PrimeGenerator{
         for (int i = 0; i <= n; i++)
             prime[i] = true;
         
-        for
+        for (int p = 2; p * p <= n; p++) {
+            // If prime[p] is not changed, then it is a prime
+            if (prime[p]) {
+                // Update all multiples of p
+            }
+        }
         
         
     }
