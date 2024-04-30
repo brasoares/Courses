@@ -27,8 +27,17 @@ public class PrimeGenerator{
             // If prime[p] is not changed, then it is a prime
             if (prime[p]) {
                 // Update all multiples of p
+                for (int i = p * p; i <= n; i += p)
+                    prime[i] = false;
             }
         }
         
-        
+        // Print all prime numbers
+        for (int i = m; i <= n; i++) {
+            if (prime[i])
+                System.out.println(i);
+        }
     }
+    
+    
+
