@@ -38,6 +38,3 @@ public class PrimeGenerator{
                 System.out.println(i);
         }
     }
-    
-    
-
