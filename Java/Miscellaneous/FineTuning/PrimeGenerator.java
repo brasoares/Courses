@@ -20,5 +20,13 @@ public class PrimeGenerator{
     public static void sieveOfEratosthenes(int m, int n, boolean[] prime) {
         // Initialize all entries as true. A value in prime[i] will
         // finally be false if i is NOT a prime, else true.
+        for (int i = 0; i <= n; i++)
+            prime[i] = true;
+        
+        for
+        
+        
     }
+    
+    
 
