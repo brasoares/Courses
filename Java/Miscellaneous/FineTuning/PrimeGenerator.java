@@ -13,6 +13,7 @@ public class PrimeGenerator{
         // Generates primes between 10 and 50
         int m = 10;
         int n = 50;
+        boolean[] prime = new boolean[n + 1];
     }
 }
 
