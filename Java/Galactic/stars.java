@@ -27,6 +27,16 @@ public class BrightestStars {
     return apparentMag;
   }
 
+  // Method to compare the size and brightness of two BrightestStars objects
+  public static void compareStars(BrightestStars star1, BrightestStars star2) {
+    // Compare size
+    if (star1.getRadiusSolarRadii() > star2.getRadiusSolarRadii()){
+      System.out.println(star1.getName() + " is bigger than " + star2.getName();
+    } else if (star1.getRadiusSolarRadii() < star2.getRadiusSolarRadii()) {
+      System.out.println(star2.getName() + " is bigger than" + star1.getName());
+    }
+  }
+
   public static void main(String[] args) {
     // Create BrightestStar objects with static data
     BrightestStars sirius = new BrightestStars("Sirius", 1.18, -1.46);
