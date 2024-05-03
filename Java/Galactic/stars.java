@@ -34,6 +34,8 @@ public class BrightestStars {
       System.out.println(star1.getName() + " is bigger than " + star2.getName();
     } else if (star1.getRadiusSolarRadii() < star2.getRadiusSolarRadii()) {
       System.out.println(star2.getName() + " is bigger than" + star1.getName());
+    } else {
+      System.out.println(star1.getName() + " and " + star2.getName() + " are the same size.");
     }
   }
 
