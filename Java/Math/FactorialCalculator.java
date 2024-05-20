@@ -12,4 +12,9 @@ public class FactorialCalculator {
 
     scanner.close();
   } 
+
+  // Recursive method to calculate factorial
+  private static long calculateFactorial(int n) {
+    
+  }
 }
