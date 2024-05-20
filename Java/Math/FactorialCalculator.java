@@ -11,7 +11,7 @@ public class FactorialCalculator {
     System.out.println("Factorial of" + number + " = " + factorial);
 
     scanner.close();
-  } 
+  }
 
   // Recursive method to calculate factorial
   private static long calculateFactorial(int n) {
