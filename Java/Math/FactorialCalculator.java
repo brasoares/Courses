@@ -6,9 +6,12 @@ public class FactorialCalculator {
     System.out.print("Enter a positive integer: ");
     int number = scanner.nextInt();
 
-    long factorial = calculateFactorial(number);
-
-    System.out.println("Factorial of" + number + " = " + factorial);
+    if (number < 0) {
+      System.out.println("Please enter a positive integer.");
+    } else {
+      long factorial = calculateFactorial(number);
+      System.out.println("Factorial of " + number + " = " + factorial);
+    }
 
     scanner.close();
   }
